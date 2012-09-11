@@ -1,7 +1,0 @@
-from amministrazione.models import Depositari
-from django.contrib import admin
-
-admin.site.register(Depositari)
-
-class DepositariAmministrazione(admin.ModelAdmin):
-    list_display = ('Codice', 'Regione_Sociale')
